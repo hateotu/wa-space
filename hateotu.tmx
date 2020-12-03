@@ -44,7 +44,7 @@
  <tileset firstgid="4609" name="fantasy" tilewidth="32" tileheight="32" tilecount="1064" columns="8">
   <image source="tileSets/fantasy.png" width="256" height="4256"/>
  </tileset>
- <layer id="10" name="exitCyberwehr" width="71" height="100" locked="1">
+ <layer id="10" name="exit" width="71" height="100" locked="1">
   <properties>
    <property name="exitUrl" value="/_/global/raw.githubusercontent.com/chaosz0ne/shared/main/maps/main.json#start"/>
   </properties>
