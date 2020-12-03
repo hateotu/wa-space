@@ -466,7 +466,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="11" name="start" width="71" height="100" visible="0">
+ <layer id="11" name="start" width="71" height="100">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
