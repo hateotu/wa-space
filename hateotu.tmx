@@ -33,7 +33,7 @@
  </tileset>
  <tileset firstgid="4353" source="floortiles.tsx"/>
  <tileset firstgid="4609" name="fantasy" tilewidth="32" tileheight="32" tilecount="1064" columns="8">
-  <image source="../tileSets/fantasy.png" width="256" height="4256"/>
+  <image source="tileSets/fantasy.png" width="256" height="4256"/>
  </tileset>
  <layer id="11" name="start" width="71" height="100">
   <properties>
