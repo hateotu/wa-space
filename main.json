@@ -121,7 +121,7 @@
         {
          "columns":32,
          "firstgid":1,
-         "image":"..\/tileSets\/zw.png",
+         "image":"tileSets\/zw.png",
          "imageheight":2048,
          "imagewidth":1024,
          "margin":0,
@@ -134,7 +134,7 @@
         {
          "columns":16,
          "firstgid":2049,
-         "image":"..\/tileSets\/rc3-mullana-neon-signs.png",
+         "image":"tileSets\/rc3-mullana-neon-signs.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -147,7 +147,7 @@
         {
          "columns":32,
          "firstgid":2305,
-         "image":"..\/tileSets\/chaos_zone_shared.png",
+         "image":"tileSets\/chaos_zone_shared.png",
          "imageheight":2048,
          "imagewidth":1024,
          "margin":0,
@@ -199,13 +199,44 @@
          "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":4353,
-         "source":"floortiles.tsx"
+         "image":"tileSets\/floortiles.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"floortiles",
+         "spacing":0,
+         "terrains":[
+                {
+                 "name":"Stone",
+                 "tile":19
+                }],
+         "tilecount":256,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "terrain":[0, 0, 0, 0]
+                }, 
+                {
+                 "id":1,
+                 "terrain":[0, 0, 0, 0]
+                }, 
+                {
+                 "id":16,
+                 "terrain":[0, 0, 0, 0]
+                }, 
+                {
+                 "id":17,
+                 "terrain":[0, 0, 0, 0]
+                }],
+         "tilewidth":32
         }, 
         {
          "columns":8,
          "firstgid":4609,
-         "image":"..\/tileSets\/fantasy.png",
+         "image":"tileSets\/fantasy.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
