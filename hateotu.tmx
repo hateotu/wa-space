@@ -30,6 +30,21 @@
     <frame tileid="231" duration="700"/>
    </animation>
   </tile>
+  <tile id="451">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="452">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="453">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="4353" name="floortiles" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="tileSets/floortiles.png" width="512" height="512"/>
@@ -256,9 +271,6 @@
 </data>
  </layer>
  <layer id="4" name="top" width="71" height="100">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
   <data encoding="csv">
 65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,66,65,
 97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
