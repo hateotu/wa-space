@@ -119,20 +119,101 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":32,
          "firstgid":1,
-         "source":"zw.tsx"
+         "image":"..\/tileSets\/zw.png",
+         "imageheight":2048,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"zw",
+         "spacing":0,
+         "tilecount":2048,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":2049,
-         "source":"rc3-mullana-neon-signs.tsx"
+         "image":"..\/tileSets\/rc3-mullana-neon-signs.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-neon-signs",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":32,
          "firstgid":2305,
-         "source":"chaos_zone_shared.tsx"
+         "image":"..\/tileSets\/chaos_zone_shared.png",
+         "imageheight":2048,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"chaos_zone_shared",
+         "spacing":0,
+         "tilecount":2048,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":1000,
+                         "tileid":101
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":102
+                        }],
+                 "id":150
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":1000,
+                         "tileid":196
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":197
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":198
+                        }],
+                 "id":214
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":700,
+                         "tileid":230
+                        }, 
+                        {
+                         "duration":700,
+                         "tileid":231
+                        }],
+                 "id":246
+                }],
+         "tilewidth":32
         }, 
         {
          "firstgid":4353,
          "source":"floortiles.tsx"
+        }, 
+        {
+         "columns":8,
+         "firstgid":4609,
+         "image":"..\/tileSets\/fantasy.png",
+         "imageheight":4256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"fantasy",
+         "spacing":0,
+         "tilecount":1064,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
