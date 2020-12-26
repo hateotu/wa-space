@@ -324,7 +324,7 @@
  </tileset>
  <layer id="10" name="exit" width="70" height="40">
   <properties>
-   <property name="exitUrl" value="https://test.visit.at.wa-test.rc3.cccv.de/_/global/raw.githubusercontent.com/hateotu/wa-turm/main/main.json"/>
+   <property name="exitUrl" value="https://test.visit.at.wa-test.rc3.cccv.de/_/global/raw.githubusercontent.com/chaosz0ne/shared/main/main.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -371,7 +371,7 @@
  </layer>
  <layer id="18" name="exit_Turm" width="70" height="40">
   <properties>
-   <property name="exitUrl" value="false"/>
+   <property name="exitUrl" value="https://test.visit.at.wa-test.rc3.cccv.de/_/global/raw.githubusercontent.com/hateotu/wa-turm/main/main.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
