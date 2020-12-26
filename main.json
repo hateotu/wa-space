@@ -34,6 +34,12 @@
          "id":24,
          "name":"silent",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"silent",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
@@ -208,12 +214,6 @@
          "id":12,
          "name":"painting",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/www.hateotu.de\/index.php"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
