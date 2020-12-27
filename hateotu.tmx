@@ -574,7 +574,7 @@
  </layer>
  <layer id="18" name="exit_Turm" width="70" height="40">
   <properties>
-   <property name="exitUrl" value="._/global/raw.githubusercontent.com/hateotu/wa-turm/main/main.json"/>
+   <property name="exitUrl" value="./wa-turm/main.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

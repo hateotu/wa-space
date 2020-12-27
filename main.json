@@ -74,7 +74,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"._\/global\/raw.githubusercontent.com\/hateotu\/wa-turm\/main\/main.json"
+                 "value":".\/wa-turm\/main.json"
                 }],
          "type":"tilelayer",
          "visible":true,
