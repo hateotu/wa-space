@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="21" height="21" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <editorsettings>
+  <export target="main.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="floortileset" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="floortileset.png" width="256" height="256"/>
+  <tile id="43">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="65" name="chaos_zone_shared" tilewidth="32" tileheight="32" tilecount="2048" columns="32">
+  <image source="chaos_zone_shared.png" width="1024" height="2048"/>
+  <tile id="705">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2113" name="haus_a" tilewidth="32" tileheight="32" tilecount="2048" columns="32">
+  <image source="haus_a.png" width="1024" height="2048"/>
+  <tile id="160">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4161" name="doors" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
+  <image source="doors.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="5185" name="tilesets_deviant_milkian_1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="tilesets_deviant_milkian_1.png" width="512" height="512"/>
+  <tile id="62">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="144">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="160">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5441" name="storage" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
+  <image source="storage.png" width="512" height="2048"/>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="6465" name="minideko" tilewidth="32" tileheight="32" tilecount="91" columns="7">
+  <image source="minideko.png" width="224" height="416"/>
+ </tileset>
+ <layer id="1" name="start" width="21" height="21">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,231,231,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="exit" width="21" height="21">
+  <properties>
+   <property name="exitUrl" value="/_/global/raw.githubusercontent.com/chaosz0ne/shared/main/maps/main.json#start"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,231,231,231,231,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,231,231,231,231,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,231,231,231,231,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="jitsi" width="21" height="21" visible="0">
+  <properties>
+   <property name="jitsiRoom" value="HateotU_Tower"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,231,231,231,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,231,231,231,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,231,231,231,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="floor" width="21" height="21">
+  <data encoding="csv">
+44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,44,
+44,2273,2273,2273,2273,2273,2273,2273,2273,2273,2273,2273,2273,2273,2273,2273,53,53,2273,2273,44,
+44,2145,2145,2145,2145,2145,2145,2273,38,38,38,38,2273,10,10,10,10,10,10,10,44,
+44,2145,2145,2145,2145,2145,2145,2273,38,38,38,38,2273,10,10,10,10,10,10,10,44,
+44,2145,2145,2145,2145,2145,2145,2273,38,38,38,38,2273,10,10,10,10,10,10,10,44,
+44,2145,2145,2145,2145,2145,2145,2273,38,38,38,38,2273,10,10,10,2273,2273,53,2273,44,
+44,2145,2145,2145,2145,2145,2145,2273,2273,53,53,2273,2273,10,10,10,2273,10,10,10,44,
+44,2145,2145,2145,2145,2145,2145,2273,10,10,10,10,10,10,10,10,2273,10,10,10,44,
+44,2145,2145,2145,2145,2145,2145,2273,10,10,10,10,10,10,10,10,2273,2273,53,2273,44,
+44,2145,2145,2145,2145,2145,2145,2273,10,10,10,10,10,10,10,10,2273,10,10,10,44,
+44,2145,2145,2145,2145,2145,2145,2273,10,10,10,10,10,10,10,10,2273,10,10,10,44,
+44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44
+</data>
+ </layer>
+ <layer id="4" name="furniture" width="21" height="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,5337,5338,5338,5338,5338,5339,5305,5306,5337,5338,5339,5305,5306,5337,5338,5338,5338,5338,5339,0,
+0,5353,5354,5354,5354,5354,5355,5321,5322,5353,5354,5355,5321,5322,5353,5354,5354,5354,5354,5355,0,
+0,5369,5370,5370,5370,5370,5371,0,0,5369,5370,5371,0,0,5369,5370,5370,5370,5370,5371,0,
+0,0,0,5298,0,0,0,0,0,0,0,0,0,0,0,0,5298,0,2684359973,2684359957,0,
+0,0,0,0,0,0,0,0,5462,5462,0,0,0,5462,5462,0,0,0,2684359973,2684359957,0,
+0,5281,0,5297,0,0,0,0,5462,5462,77,78,79,5462,5462,0,0,0,2684359973,2684359957,0,
+0,5337,5338,5338,5338,5339,0,0,5462,5462,109,0,111,5462,5462,0,0,0,2684359973,2684359957,0,
+0,5353,5354,5354,5354,5355,5315,5315,5462,5462,141,142,143,5462,5462,0,0,0,2684359973,2684359957,0,
+0,3221230826,3221230826,3221230826,3221230826,3221230826,3221230787,3221230787,5478,5478,5462,5462,5462,5478,5478,0,0,0,2684359973,2684359957,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4166,4166,0,0,0,
+0,0,0,0,0,0,0,0,357,358,359,360,0,0,0,0,0,0,770,770,0,
+0,0,0,0,0,0,0,0,389,390,391,392,0,0,0,0,0,0,770,770,0,
+0,0,0,0,0,0,0,0,421,422,423,424,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4166,0,0,
+0,0,0,0,0,0,0,0,0,4166,4166,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610618137,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4166,0,0,
+0,0,0,0,0,0,0,0,0,0,5337,5338,5338,5338,5338,5339,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,5353,5354,5354,5354,5354,5355,0,1610617983,1610617999,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="top" width="21" height="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,197,5427,5427,5427,0,0,0,0,167,0,0,0,0,0,5427,0,0,0,0,
+0,0,5320,0,5425,0,0,0,0,0,0,0,0,0,0,0,5425,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,5428,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,80,112,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,3221230792,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,144,0,5426,0,0,0,0,0,0,
+0,0,5217,0,0,5428,0,0,0,0,0,546,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,2116,2114,0,0,0,
+0,0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,6470,0,6470,0,6470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="floorLayer"/>
+</map>
