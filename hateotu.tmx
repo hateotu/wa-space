@@ -844,7 +844,7 @@
  </layer>
  <layer id="27" name="worldExit" width="70" height="40">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/erfas-south.json#start_hateotu}"/>
+   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#start_hateotu}"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
