@@ -525,7 +525,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="10" name="exit" width="70" height="40">
+ <layer id="10" name="exit" width="70" height="40" visible="0">
   <properties>
    <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-spaces-north.json#start_chaoszone}"/>
   </properties>
@@ -844,7 +844,7 @@
  </layer>
  <layer id="27" name="worldExit" width="70" height="40">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#start_hateotu}"/>
+   <property name="exitUrl" value="../../../../raw.githubusercontent.com/die3ungleichen/2D-Welt-thueringen/main/sachsen/sachsen.json#reentry-hateotu"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

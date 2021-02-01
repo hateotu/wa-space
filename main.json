@@ -59,7 +59,7 @@
                  "value":"{<lobby>\/maps\/erfas-spaces-north.json#start_chaoszone}"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -158,7 +158,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lobby>\/maps\/erfas-south.json#start_hateotu}"
+                 "value":"..\/..\/..\/..\/raw.githubusercontent.com\/die3ungleichen\/2D-Welt-thueringen\/main\/sachsen\/sachsen.json#reentry-hateotu"
                 }],
          "type":"tilelayer",
          "visible":true,
