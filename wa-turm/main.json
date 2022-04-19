@@ -70,7 +70,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#entry_turm"
+                 "value":"..\/main.json#entry_Turm"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -219,7 +219,7 @@
  </layer>
  <layer id="6" name="exit" width="21" height="21">
   <properties>
-   <property name="exitUrl" value="../main.json#entry_turm"/>
+   <property name="exitUrl" value="../main.json#entry_Turm"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
